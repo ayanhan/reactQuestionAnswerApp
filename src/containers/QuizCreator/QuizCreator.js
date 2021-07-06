@@ -70,8 +70,6 @@ class QuizCreator extends Component {
   createQuizHandler = (event) => {
     event.preventDefault()
 
-
-
     this.setState({
       quiz: [],
       isFormValid: false,

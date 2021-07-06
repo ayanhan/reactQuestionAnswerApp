@@ -30,7 +30,7 @@ class QuizList extends Component {
     return (
         <div className={classes.QuizList}>
           <div>
-          <h1>Tests List a</h1>
+          <h1>Tests List</h1>
 
             {
               this.props.loading && this.props.quizes.length !== 0 ?
